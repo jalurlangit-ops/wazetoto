@@ -10,10 +10,22 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Company Profile',
   description: 'Masukkan Deskripsi Disini',
-  keywords: 'aaabbcc',
-  applicationName: 'asdaddddd',
-  authors: [{ name: 'Josh', url: 'https://nextjs.org' }],
+  keywords: 'Masukkan keywords',
+  applicationName: 'brandA',
+  authors: [
+    { name: 'brandA', 
+      url: 'https://nextjs.org' 
+    }],
   category: 'ini category',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  publisher: 'brandA',
   formatDetection: {
     email: false,
     address: false,
@@ -25,18 +37,42 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'ini OG:TITLE',
     description: 'ini OG:DESC',
-    images: 'ini OG:IMAGES',
+    images: [
+      {
+        url: 'ini OG;URL',
+        width: '840',
+        height: '480',
+    },
+  ],
+    siteName: 'aaaaaa',
+    url: 'aaa',
+    type: 'website',
+    locale: 'id_ID',
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Your title",
     description: "Your description",
-    creator: "@author_name",
+    creator: "brandA",
     images: ["you_url_here"],
   },
   // icons: {
   //   icon: '/icon.png',
   // },
+  other: {
+    'geo.region': 'ID',
+    'geo.placename': 'Indonesia',
+    'language': 'id-ID',
+    'rating': 'general',
+    'geo.country': 'ID',
+    'page-locale': 'id,en',
+    'copyright': 'brandA',
+    'HandheldFriendly': 'true',
+    'MobileOptimized': 'width',
+    'distribution': 'global',
+  },verification: {
+    google: "your-verification-id",
+  },
 };
 
 export default function RootLayout({
