@@ -8,15 +8,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Company Profile',
-  description: 'Masukkan Deskripsi Disini',
-  keywords: 'Masukkan keywords',
-  applicationName: 'brandA',
+  title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
+  description: 'Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!',
+  keywords: 'Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!',
+  applicationName: 'Lanaya88',
   authors: [
-    { name: 'brandA', 
-      url: 'https://nextjs.org' 
+    { name: 'Lanaya88', 
+      url: './' 
     }],
-  category: 'ini category',
+  category: 'slot',
   robots: {
     index: true,
     follow: true,
@@ -25,18 +25,18 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  publisher: 'brandA',
+  publisher: 'Lanaya88',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   alternates: {
-    canonical: '/',
+    canonical: './',
   },
   openGraph: {
-    title: 'ini OG:TITLE',
-    description: 'ini OG:DESC',
+    title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
+    description: 'Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!',
     images: [
       {
         url: 'ini OG;URL',
@@ -44,21 +44,18 @@ export const metadata: Metadata = {
         height: '480',
     },
   ],
-    siteName: 'aaaaaa',
-    url: 'aaa',
+    siteName: 'Lanaya88',
+    url: './',
     type: 'website',
     locale: 'id_ID',
   },
   twitter: {
     card: "summary",
-    title: "Your title",
-    description: "Your description",
-    creator: "brandA",
+    title: "Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025",
+    description: "Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!",
+    creator: "Lanaya88",
     images: ["you_url_here"],
   },
-  // icons: {
-  //   icon: '/icon.png',
-  // },
   other: {
     'geo.region': 'ID',
     'geo.placename': 'Indonesia',
@@ -66,7 +63,7 @@ export const metadata: Metadata = {
     'rating': 'general',
     'geo.country': 'ID',
     'page-locale': 'id,en',
-    'copyright': 'brandA',
+    'copyright': 'Lanaya88',
     'HandheldFriendly': 'true',
     'MobileOptimized': 'width',
     'distribution': 'global',
@@ -81,7 +78,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang="id" data-browser="chrome">
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
