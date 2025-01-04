@@ -1,12 +1,28 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Head from 'next/head';
 import { Accordion, AccordionItem } from './components/Accordion';
 import { RiStarFill } from 'react-icons/ri';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  'name': 'product.name',
+  'image': 'product.image',
+  'description': 'product.description',
+}
 
 export default function Home() {
   return (
     <main>
+
+    <Head>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    </Head>
       <div className='container'>
         <div className='mx-auto lg:w-2/3'>
             <div className=" container mx-auto flex flex-wrap md:p-5 flex-col md:flex-row items-center">
@@ -41,7 +57,7 @@ export default function Home() {
                       <tbody>
                         <tr className='border-b border-[#EACD00] grid-cols-4'>
                           <td className='px-2 py-3 w-1/4 whitespace-nowrap border-e border-[#EACD00] '>Nama Situs</td>
-                          <td className='px-2 py-3 w-3/4 whitespace-nowrap border-e border-[#EACD00] '>brandA</td>
+                          <td className='px-2 py-3 w-3/4 whitespace-nowrap border-e border-[#EACD00] '>Lanaya88</td>
                         </tr>
                         <tr className='border-b border-[#EACD00] '>
                           <td className='px-2 py-3 w-1/4 whitespace-nowrap border-e border-[#EACD00] '>Pasaran Togel Terbanyak</td>
@@ -85,12 +101,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h1>brandA 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
+            <h1>Lanaya88 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
             <p>
-              Dalam dunia perjudian online yang dinamis, brandA telah muncul sebagai salah satu situs judi resmi yang menarik perhatian para pemain. Dikenal karena kemudahan dalam melakukan deposit menggunakan Dana dan menawarkan slot Maxwin terbesar, brandA menggabungkan kenyamanan, keamanan, dan keseruan dalam satu platform.
+              Dalam dunia perjudian online yang dinamis, Lanaya88 telah muncul sebagai salah satu situs judi resmi yang menarik perhatian para pemain. Dikenal karena kemudahan dalam melakukan deposit menggunakan Dana dan menawarkan slot Maxwin terbesar, Lanaya88 menggabungkan kenyamanan, keamanan, dan keseruan dalam satu platform.
             </p>
             <p>
-              brandA terbukti sebagai situs judi resmi yang menawarkan deposit Dana dan slot Maxwin terbesar, memberikan pengalaman bermain yang nyaman, aman, dan menguntungkan. Dengan kemudahan deposit, peluang kemenangan yang tinggi, antarmuka pengguna yang ramah, layanan pelanggan yang responsif, serta bonus dan promosi menarik, brandA adalah pilihan ideal bagi para pemain yang mencari platform judi online terbaik. Bergabunglah dengan brandA dan rasakan sendiri keunggulan dari salah satu situs judi terbesar dan terpercaya!
+              Lanaya88 terbukti sebagai situs judi resmi yang menawarkan deposit Dana dan slot Maxwin terbesar, memberikan pengalaman bermain yang nyaman, aman, dan menguntungkan. Dengan kemudahan deposit, peluang kemenangan yang tinggi, antarmuka pengguna yang ramah, layanan pelanggan yang responsif, serta bonus dan promosi menarik, Lanaya88 adalah pilihan ideal bagi para pemain yang mencari platform judi online terbaik. Bergabunglah dengan Lanaya88 dan rasakan sendiri keunggulan dari salah satu situs judi terbesar dan terpercaya!
             </p>
 
             <h2>Mengenal Lebih Dekat Situs Judi Resmi</h2>
@@ -111,23 +127,23 @@ export default function Home() {
             </p>
 
             <h2>
-            Keunggulan Deposit Dana Di brandA
+            Keunggulan Deposit Dana Di Lanaya88
             </h2>
 
             <p>
-            Salah satu keunggulan utama dari menggunakan Deposit Dana adalah kecepatan transaksi yang ditawarkannya. Deposit melalui Dana di brandA biasanya diproses secara instan, memungkinkan pemain untuk langsung bermain tanpa menunggu lama. Kecepatan ini sangat penting, terutama bagi mereka yang ingin segera memanfaatkan peluang dalam permainan yang sedang berlangsung.
+            Salah satu keunggulan utama dari menggunakan Deposit Dana adalah kecepatan transaksi yang ditawarkannya. Deposit melalui Dana di Lanaya88 biasanya diproses secara instan, memungkinkan pemain untuk langsung bermain tanpa menunggu lama. Kecepatan ini sangat penting, terutama bagi mereka yang ingin segera memanfaatkan peluang dalam permainan yang sedang berlangsung.
             </p>
 
             <p>
-            Keamanan adalah prioritas utama bagi brandA dan Dana. Dengan menggunakan Dana, pemain dapat yakin bahwa transaksi mereka dilindungi oleh sistem keamanan canggih. Dana menggunakan enkripsi tingkat tinggi untuk memastikan bahwa informasi finansial dan pribadi Anda tetap aman dari ancaman cyber. Hal ini memberikan ketenangan pikiran bagi pemain yang khawatir tentang keamanan data mereka.
+            Keamanan adalah prioritas utama bagi Lanaya88 dan Dana. Dengan menggunakan Dana, pemain dapat yakin bahwa transaksi mereka dilindungi oleh sistem keamanan canggih. Dana menggunakan enkripsi tingkat tinggi untuk memastikan bahwa informasi finansial dan pribadi Anda tetap aman dari ancaman cyber. Hal ini memberikan ketenangan pikiran bagi pemain yang khawatir tentang keamanan data mereka.
             </p>
 
             <p>
-            brandA sering menawarkan berbagai promosi dan bonus menarik bagi pemain yang melakukan deposit menggunakan Dana. Ini termasuk bonus deposit, cashback, dan berbagai hadiah menarik lainnya yang dapat meningkatkan saldo bermain Anda. Memanfaatkan promosi ini dapat memberikan keuntungan tambahan dan meningkatkan peluang Anda untuk menang.
+            Lanaya88 sering menawarkan berbagai promosi dan bonus menarik bagi pemain yang melakukan deposit menggunakan Dana. Ini termasuk bonus deposit, cashback, dan berbagai hadiah menarik lainnya yang dapat meningkatkan saldo bermain Anda. Memanfaatkan promosi ini dapat memberikan keuntungan tambahan dan meningkatkan peluang Anda untuk menang.
             </p>
 
             <p>
-            brandA menawarkan layanan pelanggan yang siap membantu setiap saat. Jika pemain mengalami masalah atau memiliki pertanyaan terkait transaksi Dana, tim dukungan pelanggan brandA selalu siap untuk memberikan bantuan cepat dan efektif. Ini memastikan bahwa pemain dapat mengatasi masalah apa pun dengan cepat dan melanjutkan permainan tanpa gangguan.
+            Lanaya88 menawarkan layanan pelanggan yang siap membantu setiap saat. Jika pemain mengalami masalah atau memiliki pertanyaan terkait transaksi Dana, tim dukungan pelanggan Lanaya88 selalu siap untuk memberikan bantuan cepat dan efektif. Ini memastikan bahwa pemain dapat mengatasi masalah apa pun dengan cepat dan melanjutkan permainan tanpa gangguan.
             </p>
 
             <h2>Apa Itu Slot Maxwin</h2>
@@ -144,32 +160,29 @@ export default function Home() {
             Memilih slot dengan RTP tinggi adalah langkah awal yang baik untuk meningkatkan peluang kemenangan Anda. Slot dengan RTP tinggi cenderung memberikan pembayaran yang lebih sering, meskipun tidak selalu dalam jumlah besar.
             </p>
 
-            <h2>Rangkaian Keuntungan Bermain di brandA Bandar Togel Online Terpercaya</h2>
+            <h2>Rangkaian Keuntungan Bermain di Lanaya88 Bandar Togel Online Terpercaya</h2>
 
-            <p>Berbicara perihal keuntungan, selama bettor memilih bermain togel melalui bandar terpercaya seperti brandA pasti akan senantiasa berpeluang mendapat banyak keuntungan. Karena, layanan togel bandar terpercaya sendiri selalu lebih mengutamakan kepentingan dan kepuasan member sehingga bisa menjaga loyalitasnya tanpa perlu mencari bandar togel lain.</p>
-            <p>Selain itu, dengan banyaknya keuntungan yang bisa didapat dari bermain togel melalui bandar brandA, para pemain akan senantiasa merasakan pengalaman yang jauh lebih memuaskan selain sekedar main judi togel saja. Inilah serangkaian keuntungan bermain di brandA bandar togel online terpercaya yang bisa anda dapatkan:</p>
+            <p>Berbicara perihal keuntungan, selama bettor memilih bermain togel melalui bandar terpercaya seperti Lanaya88 pasti akan senantiasa berpeluang mendapat banyak keuntungan. Karena, layanan togel bandar terpercaya sendiri selalu lebih mengutamakan kepentingan dan kepuasan member sehingga bisa menjaga loyalitasnya tanpa perlu mencari bandar togel lain.</p>
+            <p>Selain itu, dengan banyaknya keuntungan yang bisa didapat dari bermain togel melalui bandar Lanaya88, para pemain akan senantiasa merasakan pengalaman yang jauh lebih memuaskan selain sekedar main judi togel saja. Inilah serangkaian keuntungan bermain di Lanaya88 bandar togel online terpercaya yang bisa anda dapatkan:</p>
             <li className='list-disc'>Kategori pasaran togel lengkap</li>
-            <p>Salah satu keuntungan menarik bermain lewat bandar togel online terpercaya brandA yang bisa anda dapatkan yaitu bisa memainkan pasaran togel dengan pilihan yang terlengkap. Tentu saja, banyaknya pasaran togel yang disediakan oleh bandar terpercaya mampu memberi jaminan kepada semua member bisa bermain togel lebih memuaskan sebab bisa menjajal jenis pasaran manapun.</p>
+            <p>Salah satu keuntungan menarik bermain lewat bandar togel online terpercaya Lanaya88 yang bisa anda dapatkan yaitu bisa memainkan pasaran togel dengan pilihan yang terlengkap. Tentu saja, banyaknya pasaran togel yang disediakan oleh bandar terpercaya mampu memberi jaminan kepada semua member bisa bermain togel lebih memuaskan sebab bisa menjajal jenis pasaran manapun.</p>
 
             <li className='list-disc'>Peluang menang terjamin</li>
             <p>Bermain togel online dengan bergabung di bandar terpercaya tentu saja tidak akan kesulitan bagi pemain untuk dapat meraih kemenangan. Peluang menang bermain di bandar togel terpercaya bahkan selalu terjamin karena ada beberapa faktor yang menunjangnya seperti prediksi jitu, banyak pilihan pasaran terbaik, taruhan togel dengan sistem yang fair play, hingga live result togel tercepat.</p>
             
             <li className='list-disc'>Memperoleh banyak hadiah terbesar</li>
-            <p>Tak hanya sekedar mudah menang, untungnya apabila bermain di bandar togel online terpercaya brandA juga dapat membuat togeler memperoleh banyak hadiah terbesar. Seperti halnya promo bonus, beberapa hadiah terbesar juga disediakan bandar togel terpercaya yang mana dapat menjamin keuntungan tambahan. Terlebih, jenis-jenis hadiah terbesar yang disediakan bandar terpercaya selalu lengkap dan diberikan secara realistis.</p>
+            <p>Tak hanya sekedar mudah menang, untungnya apabila bermain di bandar togel online terpercaya Lanaya88 juga dapat membuat togeler memperoleh banyak hadiah terbesar. Seperti halnya promo bonus, beberapa hadiah terbesar juga disediakan bandar togel terpercaya yang mana dapat menjamin keuntungan tambahan. Terlebih, jenis-jenis hadiah terbesar yang disediakan bandar terpercaya selalu lengkap dan diberikan secara realistis.</p>
             
             <li className='list-disc'>Berapapun kemenangan pasti dibayar</li>
-            <p>Keuntungan berikutnya yang para pemain akan dapatkan dengan bermain di brandA bandar togel online terpercaya yaitu berapapun kemenangan pasti dibayar. Maksudnya, kemenangan yang member raih dalam bermain togel, maka tidak perlu menunggu lama untuk menerima pembayarannya yang akan diberikan secara langsung oleh pihak bandar brandA.</p>
+            <p>Keuntungan berikutnya yang para pemain akan dapatkan dengan bermain di Lanaya88 bandar togel online terpercaya yaitu berapapun kemenangan pasti dibayar. Maksudnya, kemenangan yang member raih dalam bermain togel, maka tidak perlu menunggu lama untuk menerima pembayarannya yang akan diberikan secara langsung oleh pihak bandar Lanaya88.</p>
             
             <li className='list-disc'>Minimum bet dan deposit rendah</li>
-            <p>Setiap bettor yang bermain togel biasanya tidak sekedar hanya menginginkan hadiah besar saja. Bahkan, para pemain pun juga selalu ingin bermain togel dengan lebih memudahkan. Keuntungan seperti demikian tentu saja bisa anda peroleh jika main di bandar togel online terpercaya brandA karena memberikan minimum bet dan deposit rendah sehingga mempermudah membernya pasang taruhan togel tanpa harus dengan modal yang besar.</p>
+            <p>Setiap bettor yang bermain togel biasanya tidak sekedar hanya menginginkan hadiah besar saja. Bahkan, para pemain pun juga selalu ingin bermain togel dengan lebih memudahkan. Keuntungan seperti demikian tentu saja bisa anda peroleh jika main di bandar togel online terpercaya Lanaya88 karena memberikan minimum bet dan deposit rendah sehingga mempermudah membernya pasang taruhan togel tanpa harus dengan modal yang besar.</p>
             
-            <h2>Jenis-jenis Penawaran Keuntungan Paling Menarik dari Bandar Togel Online Terpercaya brandA</h2>
-            <Link href='#' className='block'>
-              <Image src='/banner.png' className='w-full block' alt='Banner' width={757} height={411} />
-            </Link>
-            <p>Dalam rangka menciptakan layanan togel yang penuh kepuasan bagi membernya, tentu saja brandA selaku bandar togel yang terpercaya pasti menyediakan pula beberapa jenis-jenis penawaran keuntungan yang sangat menarik. Maksud dari adanya beberapa penawaran tersebut sudah pasti agar setiap member bisa meraih benefit tambahan walau tidak selalu memperoleh kemenangan.</p>
-            <p>Ada banyak sekali saat ini bandar layanan togel online yang menawarkan beberapa keuntungan tertentu buat membernya. Tetapi, tidak seperti bandar terpercaya brandA di mana senantiasa memberikan benefit atau berbagai penawaran keuntungan yang senantiasa realistis hingga disertai dengan keuntungan yang jauh lebih besar.</p>
-            <p>Makanya, dengan menjadikan bandar brandA sebagai sarana bermain togel online, tentu para pemain bisa merasakan pengalaman terbaik memperoleh banyak keuntungan. Apalagi, setiap jenis keuntungan juga terjamin mudah didapatkan selama setiap member sudah memenuhi syarat untuk mendapatkannya. Adapun jenis-jenis penawaran keuntungan paling menarik dari bandar togel online terpercaya brandA yang disediakan diantaranya meliputi:</p>
+            <h2>Jenis-jenis Penawaran Keuntungan Paling Menarik dari Bandar Togel Online Terpercaya Lanaya88</h2>
+            <p>Dalam rangka menciptakan layanan togel yang penuh kepuasan bagi membernya, tentu saja Lanaya88 selaku bandar togel yang terpercaya pasti menyediakan pula beberapa jenis-jenis penawaran keuntungan yang sangat menarik. Maksud dari adanya beberapa penawaran tersebut sudah pasti agar setiap member bisa meraih benefit tambahan walau tidak selalu memperoleh kemenangan.</p>
+            <p>Ada banyak sekali saat ini bandar layanan togel online yang menawarkan beberapa keuntungan tertentu buat membernya. Tetapi, tidak seperti bandar terpercaya Lanaya88 di mana senantiasa memberikan benefit atau berbagai penawaran keuntungan yang senantiasa realistis hingga disertai dengan keuntungan yang jauh lebih besar.</p>
+            <p>Makanya, dengan menjadikan bandar Lanaya88 sebagai sarana bermain togel online, tentu para pemain bisa merasakan pengalaman terbaik memperoleh banyak keuntungan. Apalagi, setiap jenis keuntungan juga terjamin mudah didapatkan selama setiap member sudah memenuhi syarat untuk mendapatkannya. Adapun jenis-jenis penawaran keuntungan paling menarik dari bandar togel online terpercaya Lanaya88 yang disediakan diantaranya meliputi:</p>
             <ul className='ml-4'>
               <li className='list-disc'>Hadiah 4D Terbesar up to 10 Juta</li>
               <li className='list-disc'>Diskon Togel 2D, 3D, 4D</li>
@@ -177,31 +190,31 @@ export default function Home() {
               <li className='list-disc'>Prize 123</li>
               <li className='list-disc'>Hadiah BB Togel</li>
             </ul>
-            <h2>Tips Dapatkan Keuntungan Bermain di brandA Bandar Togel Online Terpercaya dengan Mudah</h2>
-            <p>Pada prinsipnya, bermain togel dengan bergabung melalui bandar terpercaya seperti misalnya brandA pastinya sudah menjamin para pemain bisa dapatkan banyak keuntungan. Walaupun demikian, tidak ada salahnya bagi pemain pun untuk mencoba bereksplorasi dengan menjajal beberapa tips terbaik sehingga setiap keuntungan apapun bisa didapat lebih mudah.</p>
-            <p>Sama halnya ketika anda ingin menang, untuk bisa meraih banyak keuntungan juga memerlukan setidaknya beberapa trik terbaik. Simak lebih lengkapnya beberapa tips mendapatkan keuntungan bermain di bandar togel online terpercaya brandA dengan mudah seperti berikut ini:</p>
+            <h2>Tips Dapatkan Keuntungan Bermain di Lanaya88 Bandar Togel Online Terpercaya dengan Mudah</h2>
+            <p>Pada prinsipnya, bermain togel dengan bergabung melalui bandar terpercaya seperti misalnya Lanaya88 pastinya sudah menjamin para pemain bisa dapatkan banyak keuntungan. Walaupun demikian, tidak ada salahnya bagi pemain pun untuk mencoba bereksplorasi dengan menjajal beberapa tips terbaik sehingga setiap keuntungan apapun bisa didapat lebih mudah.</p>
+            <p>Sama halnya ketika anda ingin menang, untuk bisa meraih banyak keuntungan juga memerlukan setidaknya beberapa trik terbaik. Simak lebih lengkapnya beberapa tips mendapatkan keuntungan bermain di bandar togel online terpercaya Lanaya88 dengan mudah seperti berikut ini:</p>
             <li className='list-disc'>Bermain togel lebih intens</li>
-            <p>Cara termudah yang pertama untuk bisa dapatkan keuntungan bermain di brandA bandar togel online terpercaya yaitu dengan main togel secara lebih intens. Bila melakukan taruhan togel secara lebih intens, secara otomatis anda pun bakal lebih berpeluang dapatkan banyak keuntungan sebab dalam permainan apapun pastinya memerlukan adaptasi terlebih dahulu.</p>
+            <p>Cara termudah yang pertama untuk bisa dapatkan keuntungan bermain di Lanaya88 bandar togel online terpercaya yaitu dengan main togel secara lebih intens. Bila melakukan taruhan togel secara lebih intens, secara otomatis anda pun bakal lebih berpeluang dapatkan banyak keuntungan sebab dalam permainan apapun pastinya memerlukan adaptasi terlebih dahulu.</p>
             <li className='list-disc'>Manfaatkan bonus</li>
-            <p>Jika anda punya beberapa bonus yang didapat sebelumnya bermain togel di bandar brandA, maka untuk selanjutnya anda bisa manfaatkan bonus tersebut. Memanfaatkan bonus-bonus yang ada untuk pasang taruhan bermain togel pastinya akan membuka peluang anda dapatkan lebih banyak keuntungan sekaligus memicu kemunculan bonus-bonus lain yang lebih menarik.</p>
+            <p>Jika anda punya beberapa bonus yang didapat sebelumnya bermain togel di bandar Lanaya88, maka untuk selanjutnya anda bisa manfaatkan bonus tersebut. Memanfaatkan bonus-bonus yang ada untuk pasang taruhan bermain togel pastinya akan membuka peluang anda dapatkan lebih banyak keuntungan sekaligus memicu kemunculan bonus-bonus lain yang lebih menarik.</p>
             <li className='list-disc'>Pasang lebih banyak pasaran</li>
             <p>Tips terbaik yang berikutnya yang bisa anda coba dalam bermain lewat bandar togel terpercaya agar dapatkan keuntungan besar yaitu pasang pada lebih banyak pasaran. Memilih bertaruh pada beberapa jenis pasaran dapat mempermudah anda dapatkan keuntungan, bahkan lebih banyak karena bisa dari pasaran mana saja yang dimainkan.</p>
 
 
             <h1>FAQ Tentang Produk Yang sering Ditanyakan</h1>
             <Accordion>
-              <AccordionItem question='Apa yang membedakan brandA dari platform prediksi togel lainnya?' answer='brandA menawarkan sistem prediksi yang sangat akurat, dengan tingkat akurasi hingga 98%. Teknologi canggih seperti algoritma prediktif dan machine learning digunakan. Ini membuat analisis data real-time menjadi lebih efektif.' />
-              <AccordionItem question='Bagaimana brandA mendapatkan lisensi dan regulasi untuk beroperasi?' answer='brandA mendapatkan lisensi resmi dan beroperasi sesuai peraturan yang berlaku. Ini menjamin keamanan dan keabsahan layanan bagi pengguna.' />
-              <AccordionItem question='Bagaimana cara mengakses prediksi togel di brandA?' answer='Anda bisa mengakses prediksi togel di brandA melalui website atau aplikasi mobile. Proses pendaftaran dan navigasi sangat mudah digunakan.' />
-              <AccordionItem question='Apa saja keunggulan utama platform brandA?' answer='Keunggulan brandA termasuk sistem prediksi yang akurat dan teknologi analisis data canggih. Keamanan data terjamin dan layanan pelanggan 24/7 sangat profesional.' />
-              <AccordionItem question='Bagaimana cara mengoptimalkan hasil prediksi dari brandA?' answer='Untuk hasil terbaik, ikuti prediksi secara konsisten dan kelola keuangan dengan bijak. Manfaatkan informasi prediksi secara efektif.' />
+              <AccordionItem question='Apa yang membedakan Lanaya88 dari platform prediksi togel lainnya?' answer='Lanaya88 menawarkan sistem prediksi yang sangat akurat, dengan tingkat akurasi hingga 98%. Teknologi canggih seperti algoritma prediktif dan machine learning digunakan. Ini membuat analisis data real-time menjadi lebih efektif.' />
+              <AccordionItem question='Bagaimana Lanaya88 mendapatkan lisensi dan regulasi untuk beroperasi?' answer='Lanaya88 mendapatkan lisensi resmi dan beroperasi sesuai peraturan yang berlaku. Ini menjamin keamanan dan keabsahan layanan bagi pengguna.' />
+              <AccordionItem question='Bagaimana cara mengakses prediksi togel di Lanaya88?' answer='Anda bisa mengakses prediksi togel di Lanaya88 melalui website atau aplikasi mobile. Proses pendaftaran dan navigasi sangat mudah digunakan.' />
+              <AccordionItem question='Apa saja keunggulan utama platform Lanaya88?' answer='Keunggulan Lanaya88 termasuk sistem prediksi yang akurat dan teknologi analisis data canggih. Keamanan data terjamin dan layanan pelanggan 24/7 sangat profesional.' />
+              <AccordionItem question='Bagaimana cara mengoptimalkan hasil prediksi dari Lanaya88?' answer='Untuk hasil terbaik, ikuti prediksi secara konsisten dan kelola keuangan dengan bijak. Manfaatkan informasi prediksi secara efektif.' />
             </Accordion>
             
             <p>
               <strong>Keyword Terkait:</strong>
             </p>
             <ul className='text-[#FFD700] ml-4 leading-loose'>
-              <li className='list-disc'>brandA</li>
+              <li className='list-disc'>Lanaya88</li>
               <li className='list-disc'>slot online</li>
               <li className='list-disc'>slot gacor</li>
               <li className='list-disc'>slot dana maxwin</li>
