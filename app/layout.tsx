@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import { url } from 'inspector';
+
 
 const inter = Inter({
   variable: '--font-inter',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: "/",
+    canonical: `${origin}`,
   },
   openGraph: {
     title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
