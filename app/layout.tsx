@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
+  title: 'a Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
   description: 'Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!',
   keywords: 'Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!',
   applicationName: 'Lanaya88',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: `${origin}`,
+    canonical: `${origin}/user-listings`,
   },
   openGraph: {
     title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
