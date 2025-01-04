@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { url } from 'inspector';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   applicationName: 'Lanaya88',
   authors: [
     { name: 'Lanaya88', 
-      url: './' 
+      url: '/' 
     }],
   category: 'slot',
   robots: {
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: './',
+    canonical: "/",
   },
   openGraph: {
     title: 'Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025',
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     },
   ],
     siteName: 'Lanaya88',
-    url: './',
+    url: '/',
     type: 'website',
     locale: 'id_ID',
   },
