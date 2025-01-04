@@ -1,28 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Head from 'next/head';
 import { Accordion, AccordionItem } from './components/Accordion';
 import { RiStarFill } from 'react-icons/ri';
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  'name': 'product.name',
-  'image': 'product.image',
-  'description': 'product.description',
-}
 
 export default function Home() {
   return (
     <main>
-
-    <Head>
-    <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-    </Head>
       <div className='container'>
         <div className='mx-auto lg:w-2/3'>
             <div className=" container mx-auto flex flex-wrap md:p-5 flex-col md:flex-row items-center">
