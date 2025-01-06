@@ -14,17 +14,17 @@ export default function Home() {
                 <Image src='/logo.png' className='w-48 md:w-52 block' alt='Logo' width='230' height='80' />
               </a>
                 <div className="max-sm:mt-32 max-sm:container md:ml-auto md:mr-auto flex items-center text-base justify-center gap-2">
-                  <Link href='#' className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       LOGIN
                   </Link>
-                  <Link href='#' className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       DAFTAR
                   </Link>
                 </div>
             </div>
 
           <Image src='/banner.png' className='max-sm:mt-12 w-full block' alt='Banner' width={757} height={411} />
-          <h1 className='my-6 text-center'>AGEN JUDI TOGEL ONLINE TERPERCAYA</h1>
+          <h1 className='my-6 text-center'>Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025</h1>
           <div className='p-6 space-y-6 rounded-md glow-yellow mb-40'>
             <div className='flex flex-col'>
               <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
@@ -222,77 +222,8 @@ export default function Home() {
               <li className='list-disc'>slot maxwin terbaru</li>
             </ul>
           </div>
-          <div className='flex flex-col items-center text-center md:text-left md:items-start md:grid md:grid-cols-3 gap-16 md:gap-8 mb-10'>
-            <div className='space-y-4'>
-              <h3>TENTANG TOKO ONLINE</h3>
-              <Link href='#' className='block'>
-                <Image src='/logo.png' className='w-full ' alt='Logo' width='230' height='80' />
-              </Link>
-              <p>
-                <strong>TOKO ONLINE</strong> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quis repellat eveniet non eaque, similique soluta veritatis nesciunt pariatur ut animi distinctio ex, incidunt esse?
-              </p>
-            </div>
-            <div className='space-y-8 md:space-y-12'>
-              <h3>INFORMASI KONTAK</h3>
-              <div className='space-y-4'>
-                <p>
-                  <strong>Alamat:</strong> Jl. Raya Pajajaran Kota Bogor, Jawa Barat
-                </p>
-                <p>
-                  <strong>Nomor Telepon:</strong> +6212589654125
-                </p>
-                <p>
-                  <strong>Email:</strong> namaweb@gmail.com
-                </p>
-                <p>
-                  <strong>Website:</strong>{' '}
-                  <Link href='https://www.namaweb.com' className='hover:underline'>
-                    <strong>https://www.namaweb.com</strong>
-                  </Link>
-                </p>
-                <p>
-                  <strong>Manajer: Edo Suwardo</strong>
-                </p>
-              </div>
-            </div>
-            <div className='space-y-8 md:space-y-16'>
-              <h3>INFORMASI KONTAK</h3>
-              <ul className='space-y-8'>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Kebijakan Privasi
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Terma Dan Syarat
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Promosi
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Hubungi Kami
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Author
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#' className='hover:underline'>
-                    Blog
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div className='bg-[#5B5B5B] text-center py-4'>
-            <p className='text-sm text-white font-medium'>Copyright &copy; 2024 - LXGROUP , All Rights Reserved </p>
+            <p className='text-sm text-white font-medium'>Copyright &copy; 2025 - LANAYA88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025 </p>
           </div>
         </div>
       </div>
