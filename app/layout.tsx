@@ -3,6 +3,8 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 
+const nameDomain = "https://camnangphaidep.com";
+
 const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin']
@@ -22,7 +24,7 @@ export default function RootLayout({
         <meta name="keywords" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta name="google-site-verification" content="your-verification-id" />
         <meta name="application-name" content="Lanaya88" />
-        <link rel="author" href="{window.location.href}" />
+        <link rel="author" href={nameDomain} />
         <meta name="author" content="Lanaya88" />
         <meta name="publisher" content="Lanaya88" />
         <meta name="copyright" content="Lanaya88" />
@@ -41,10 +43,10 @@ export default function RootLayout({
         <meta name="format-detection" content="telephone=no, address=no, email=no" />
         <meta property="og:title" content="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" />
         <meta property="og:description" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
-        <meta property="og:url" content="{window.location.href}" />
+        <meta property="og:url" content={nameDomain} />
         <meta property="og:site_name" content="Lanaya88" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:image" content="{window.location.href}" />
+        <meta property="og:image" content={nameDomain} />
         <meta property="og:image:width" content="840" />
         <meta property="og:image:height" content="480" />
         <meta property="og:type" content="website" />
@@ -52,7 +54,7 @@ export default function RootLayout({
         <meta name="twitter:creator" content="Lanaya88" />
         <meta name="twitter:title" content="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" />
         <meta name="twitter:description" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
-        <meta name="twitter:image" content="{window.location.href}" />
+        <meta name="twitter:image" content={nameDomain} />
         <link rel="icon" href="/favicon.ico?favicon.088e6c96.ico" sizes="256x256" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="next-size-adjust" content="" />
