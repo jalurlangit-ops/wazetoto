@@ -14,8 +14,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const router = useRouter();
-  const currentUrl = router.asPath;
   return (
     <html lang="id" data-browser="chrome">
       <head>
