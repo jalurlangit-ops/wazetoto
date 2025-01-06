@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="id" data-browser="chrome">
       <head>
         <meta charSet="utf-8" />
-        <title>Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025</title>
+        <title>A Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025</title>
         <meta name="description" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta name="keywords" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta name="google-site-verification" content="your-verification-id" />
