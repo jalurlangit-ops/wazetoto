@@ -22,7 +22,7 @@ export default function RootLayout({
         <meta name="keywords" content="Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta name="google-site-verification" content="your-verification-id" />
         <meta name="application-name" content="Lanaya88" />
-        <link rel="author" href="{window.location.href}" />
+        <link rel="author" href={window.location.href} />
         <meta name="author" content="Lanaya88" />
         <meta name="publisher" content="Lanaya88" />
         <meta name="copyright" content="Lanaya88" />
