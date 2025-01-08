@@ -10,6 +10,43 @@ const inter = Inter({
   subsets: ['latin']
 });
 
+function rank() {
+    return {
+      __html: `{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "https://camnangphaidep.com",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "GameApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "7143729"
+    },
+	"review": {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+	"author": {
+            "@type": "Person",
+            "name": "Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025",
+            "reviewBody": "Lanaya88 agen slot Online terpercaya, bandar judi slot maxwin 2025, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!"
+          }
+        },
+    "offers": {
+      "@type": "Offer",
+      "price": "10000",
+      "priceCurrency": "IDR"
+    }
+  }
+  `,
+    };
+  }
+
 export default function RootLayout({
   children
 }: Readonly<{
@@ -59,6 +96,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico?favicon.088e6c96.ico" sizes="256x256" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="next-size-adjust" content="" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
       </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
