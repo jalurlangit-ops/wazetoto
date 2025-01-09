@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Accordion, AccordionItem } from './components/Accordion';
 import { RiStarFill } from 'react-icons/ri';
 
 export default function Home() {
