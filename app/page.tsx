@@ -96,15 +96,6 @@ export default function Home() {
             <p>
               Lanaya88 terbukti sebagai situs judi resmi yang menawarkan deposit Dana dan slot Maxwin terbesar, memberikan pengalaman bermain yang nyaman, aman, dan menguntungkan. Bergabunglah dengan Lanaya88 dan rasakan sendiri keunggulan dari salah satu situs judi terbesar dan terpercaya!
             </p>
-
-            {/* <h1>FAQ Tentang Produk Yang sering Ditanyakan</h1>
-            <Accordion>
-              <AccordionItem question='Apa yang membedakan Lanaya88 dari platform prediksi togel lainnya?' answer='Lanaya88 menawarkan sistem prediksi yang sangat akurat, dengan tingkat akurasi hingga 98%. Teknologi canggih seperti algoritma prediktif dan machine learning digunakan. Ini membuat analisis data real-time menjadi lebih efektif.' />
-              <AccordionItem question='Bagaimana Lanaya88 mendapatkan lisensi dan regulasi untuk beroperasi?' answer='Lanaya88 mendapatkan lisensi resmi dan beroperasi sesuai peraturan yang berlaku. Ini menjamin keamanan dan keabsahan layanan bagi pengguna.' />
-              <AccordionItem question='Bagaimana cara mengakses prediksi togel di Lanaya88?' answer='Anda bisa mengakses prediksi togel di Lanaya88 melalui website atau aplikasi mobile. Proses pendaftaran dan navigasi sangat mudah digunakan.' />
-              <AccordionItem question='Apa saja keunggulan utama platform Lanaya88?' answer='Keunggulan Lanaya88 termasuk sistem prediksi yang akurat dan teknologi analisis data canggih. Keamanan data terjamin dan layanan pelanggan 24/7 sangat profesional.' />
-              <AccordionItem question='Bagaimana cara mengoptimalkan hasil prediksi dari Lanaya88?' answer='Untuk hasil terbaik, ikuti prediksi secara konsisten dan kelola keuangan dengan bijak. Manfaatkan informasi prediksi secara efektif.' />
-            </Accordion> */}
             
             <p>
               <strong>Keyword Terkait:</strong>
