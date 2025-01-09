@@ -14,10 +14,10 @@ export default function Home() {
                 <Image alt="lanaya88 slot" src='/logo.png' className='w-48 md:w-52 block' width='230' height='80' />
               </a>
                 <div className="max-sm:mt-32 max-sm:container md:ml-auto md:mr-auto flex items-center text-base justify-center gap-2">
-                  <Link href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link title="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       LOGIN
                   </Link>
-                  <Link href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
+                  <Link title="Lanaya88 Agen Slot Online Terpercaya, Bandar Judi Slot Maxwin 2025" href='https://daftarwap.orang-dalam.link/lanaya' target="_blank" className='text-center w-52 max-sm:w-9/12 font-bold text-black px-6 py-2 border-2 border-[#FFFE00] rounded-sm bg-gradient-to-r from-[#FFA200] via-[#FFC300] to-[#ffa200]'>
                       DAFTAR
                   </Link>
                 </div>
